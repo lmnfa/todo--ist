@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.app{
+width: 336px;
+border-radius: 10px;
+border: 1px solid rgba(196, 196, 196, 1);
+margin: 50px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+left: 548px;
+top: 212px;
+}
+
+.container{
+    height: 28px;
+    width: 337px;
+    background-color:  #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26;
+    width: 198px;
+}
+
+#btnOne{
+    width: 150px;
+    height: 50px;
+    margin: 20px 50px;
+    background-color: rgba(131, 58, 224, 1);
+    display: flex;
+    color: white;
+    border-radius: 70px;
+    align-items: center;
+    
+}
+
+#circleBtn{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(153, 83, 241, 1);
+    align-items: center;
+}
+
+#inputDIV{
+    border: 1px solid rgba(196, 196, 196, 1);
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+span{
+    padding-left: 15px;
+}
+
+.remove_btn{
+    border-radius: 50%;
+    width: 23px;
+    outline: none;
+    border: none;
+    height: 23px;
+    font-size: 10px;
+}
+
+input{
+    border: none ;
+    width: 250px;
+    height: 38px;
+    
+}
+
